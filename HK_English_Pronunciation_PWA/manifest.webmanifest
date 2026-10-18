@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "香港求職英語發音練習室",
+  "short_name": "求職英語",
+  "description": "香港求職英語詞彙、發音與間隔複習練習",
+  "lang": "zh-Hant",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f6f8",
+  "theme_color": "#172c5c",
+  "icons": [
+    {"src":"./icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"./icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
