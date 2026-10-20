@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#172c5c">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="求職英語">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<meta name="description" content="面向香港求職的英語發音與職場溝通練習：剪輯、媒體、數字內容、JD、面試句型。">
+<title>香港求職英語發音練習室</title>
+<style>
+:root{--bg:#f5f6f8;--paper:#fff;--ink:#18202a;--muted:#697586;--line:#e2e6ec;--accent:#185adb;--accent-soft:#e9efff;--good:#16794b;--good-bg:#e7f6ee;--shadow:0 8px 26px rgba(20,30,50,.06)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","Microsoft JhengHei",sans-serif;line-height:1.55}
+header{background:linear-gradient(120deg,#172c5c,#1b5db8);color:white;padding:36px 20px 28px} .wrap{max-width:1080px;margin:0 auto}.eyebrow{text-transform:uppercase;letter-spacing:.11em;font-size:.75rem;opacity:.85;font-weight:700}.hero h1{font-size:clamp(1.8rem,4vw,2.8rem);line-height:1.18;margin:.55rem 0}.hero p{max-width:750px;margin:.6rem 0 0;color:#e3ecff}.hero-pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.pill{font-size:.82rem;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:5px 10px;color:white}
+main{padding:22px 16px 48px}.toolbar{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:12px;background:var(--paper);padding:15px;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);position:sticky;top:8px;z-index:4}label{display:block;color:var(--muted);font-size:.78rem;font-weight:700;margin-bottom:5px}input,select,button{font:inherit}input[type=search],select{width:100%;padding:10px 12px;border:1px solid #cfd6e2;border-radius:10px;background:white;color:var(--ink)}button{cursor:pointer;border:0;border-radius:10px;padding:9px 12px;font-weight:650}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #aac0ff;outline-offset:2px}.btn-primary{background:var(--accent);color:white}.btn-light{background:#edf1f7;color:#27354a}.btn-quiet{background:transparent;border:1px solid var(--line);color:var(--ink)}.btn-mini{font-size:.83rem;padding:7px 9px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin:28px 0 12px}.section-head h2{margin:0;font-size:1.35rem}.section-head p{margin:3px 0 0;color:var(--muted);font-size:.9rem}.count{color:var(--muted);font-size:.86rem;white-space:nowrap}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:15px;box-shadow:0 3px 10px rgba(20,30,50,.025);min-width:0}.card.learned{border-color:#9ad8b4;background:#fbfffc}.wordtop{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.word{font-size:1.16rem;font-weight:800;line-height:1.25;overflow-wrap:anywhere}.ipa{font-size:.9rem;color:var(--accent);margin-top:4px}.meaning{font-weight:650;margin:10px 0 4px}.example{color:#485465;font-size:.94rem;margin:5px 0 12px}.controls{display:flex;flex-wrap:wrap;gap:7px}.dictionary{display:inline-flex;align-items:center;text-decoration:none;color:var(--accent);font-size:.82rem;margin-top:10px}.check{white-space:nowrap;display:flex;align-items:center;gap:5px;color:var(--muted);font-size:.8rem}.check input{accent-color:var(--good)}.category-tag{display:inline-block;padding:3px 8px;background:var(--accent-soft);color:#244aa3;border-radius:999px;font-size:.72rem;font-weight:750;margin-bottom:8px}.phrase-en{font-size:1.05rem;font-weight:750;margin-bottom:6px}.phrase-zh{color:#465364;margin-bottom:10px}.tip{background:#fff9e8;border:1px solid #f2df9f;border-radius:12px;padding:13px 15px;color:#51421e;margin:18px 0}.tip strong{color:#3e3217}.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:25px}.daylist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.day{background:white;border:1px solid var(--line);border-radius:12px;padding:12px}.day strong{display:block;margin-bottom:3px}.day span{color:var(--muted);font-size:.88rem}.interview{background:#fff;border:1px solid var(--line);padding:16px;border-radius:14px;margin-bottom:10px}.interview h3{margin:0 0 6px;font-size:1rem}.interview p{margin:6px 0}.interview .zh{color:var(--muted);font-size:.9rem}.status{margin-top:12px;font-size:.85rem;color:var(--muted)}footer{color:var(--muted);font-size:.84rem;text-align:center;padding:20px 12px 34px}.notice{font-size:.88rem;color:var(--muted);margin-top:8px}
+
+.pron-module{background:#fff;border:1px solid #dfe6ef;border-radius:18px;padding:16px;margin:22px 0 28px;box-shadow:0 3px 12px rgba(20,30,50,.025)}
+.pron-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:14px}
+.pron-panel{background:#f8fafc;border:1px solid var(--line);border-radius:14px;padding:15px}
+.pron-target{font-size:clamp(1.25rem,3vw,1.8rem);font-weight:800;line-height:1.45;overflow-wrap:anywhere}
+.pron-ipa{color:var(--accent);font-size:.95rem;margin-top:4px}
+.pron-tip{background:#fff9e8;border:1px solid #f2df9f;border-radius:10px;padding:10px 12px;color:#51421e;margin-top:10px;font-size:.9rem}
+.pron-buttons{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.pron-result{margin-top:12px;background:white;border:1px solid #dbe3ed;border-radius:12px;padding:12px}
+.pron-good{background:var(--good-bg);border-color:#a8dbbd;color:#17663b}
+.pron-warn{background:#fff7e8;border-color:#efd69b;color:#79510c}
+.pron-bad{background:#fff0ef;border-color:#efc0bb;color:#8d2b24}
+.pron-missing{color:#8d2b24;font-weight:700}.pron-extra{color:#79510c;font-weight:700}
+.pron-transcript{font-size:1.05rem;font-weight:700;line-height:1.6}
+.pron-small{color:var(--muted);font-size:.82rem}
+.pron-meter{height:8px;background:#e9edf3;border-radius:99px;overflow:hidden;margin-top:8px}
+.pron-meter > span{display:block;height:100%;width:0;background:var(--accent);transition:width .25s}
+@media(max-width:700px){.pron-grid{grid-template-columns:1fr}}
+
+.review-module{background:#fafdff;border:1px solid #d9e4f7;border-radius:18px;padding:16px;margin:22px 0 28px}.review-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.review-stat{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px}.review-stat span{display:block;color:var(--muted);font-size:.82rem}.review-stat strong{display:block;font-size:1.65rem;line-height:1.3;margin:3px 0}.review-stat small{display:block;color:var(--muted);font-size:.78rem}.review-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.review-area{margin-top:16px;border-top:1px solid #dbe4f2;padding-top:15px}.review-session-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}.review-card{background:white;border:1px solid #d5e0f2;border-radius:16px;padding:22px;text-align:center;min-height:190px;display:flex;flex-direction:column;justify-content:center;gap:10px}.review-kicker{font-size:.8rem;color:var(--muted);font-weight:750}.review-prompt{font-size:clamp(1.2rem,3vw,1.8rem);font-weight:800;line-height:1.45;overflow-wrap:anywhere}.review-hint{color:var(--muted);font-size:.9rem}.review-answer{font-size:clamp(1.15rem,2.5vw,1.55rem);font-weight:800;line-height:1.5;overflow-wrap:anywhere}.review-answer-ipa{color:var(--accent);font-size:.95rem}.review-answer-zh{color:#475467}.review-example{background:#f4f7fb;border-radius:10px;padding:10px;color:#42506a;text-align:left;margin-top:4px}.review-controls{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:12px}.rating-btn{min-width:112px}.rating-again{background:#fde8e7;color:#8d2b24}.rating-hard{background:#fff0d1;color:#79510c}.rating-good{background:#e3f6ea;color:#17663b}.rating-easy{background:#e7efff;color:#1f4da2}.review-complete{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;text-align:center}.review-complete h3{margin:0 0 8px}.review-complete p{color:var(--muted);margin:0 0 12px}
+@media(max-width:700px){.toolbar{grid-template-columns:1fr;position:relative;top:auto}.grid,.daylist,.review-stats{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.hero{padding:0}.card{padding:13px}.review-module{padding:12px}.review-card{padding:18px 12px}.rating-btn{flex:1;min-width:40%}}
+@media print{header{background:#fff;color:#111;padding:10px 0}.hero p,.hero-pills,.toolbar,.controls,.dictionary,.check,footer{display:none!important}main{padding:0}.grid{grid-template-columns:1fr 1fr}.card{break-inside:avoid;box-shadow:none}.section-head{margin-top:14px}}
+/* Mobile app layout */
+html{scroll-padding-top:16px;scroll-padding-bottom:calc(88px + env(safe-area-inset-bottom))}
+header{padding-top:max(26px,env(safe-area-inset-top));padding-bottom:22px}
+.app-actions{display:flex;gap:10px;align-items:center;margin-top:18px;flex-wrap:wrap}.install-app{background:#fff;color:#17366e;min-height:44px;padding:10px 16px}.install-note{font-size:.82rem;color:#e3ecff}
+.mobile-nav{display:none}
+section[id],#wordGrid,#phraseGrid,#interviewList,#dayList{scroll-margin-top:18px}
+button,input,select{touch-action:manipulation}
+@media(max-width:700px){
+ body{font-size:16px;padding-bottom:calc(72px + env(safe-area-inset-bottom))}
+ header{padding-left:18px;padding-right:18px}.hero h1{font-size:1.9rem}.hero p{font-size:.98rem}.hero-pills{gap:6px}.pill{font-size:.74rem;padding:5px 9px}
+ main{padding:14px 12px 28px}.toolbar{position:static;padding:12px;gap:9px;border-radius:14px}.toolbar>div{min-width:0}.toolbar input[type=search],.toolbar select{min-height:48px;font-size:16px}.toolbar input[type=range]{min-height:32px}
+ .tip{padding:12px;margin:12px 0 16px}.review-module,.pron-module{margin:16px 0;padding:13px;border-radius:15px}.section-head{margin:23px 0 10px;gap:4px}.section-head h2{font-size:1.2rem}.section-head p{font-size:.86rem}.grid,.daylist,.review-stats{grid-template-columns:1fr}.grid{gap:10px}.card{padding:14px;border-radius:14px}.word{font-size:1.22rem}.controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.controls button{min-height:44px;padding:10px 8px;font-size:.88rem}.check{font-size:.83rem;min-height:38px}.pron-buttons{display:grid;grid-template-columns:1fr 1fr;gap:8px}.pron-buttons button{min-height:46px}.review-actions{display:grid;grid-template-columns:1fr;gap:8px}.review-actions button{min-height:46px}.review-stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.review-stat{padding:9px 7px}.review-stat span{font-size:.72rem}.review-stat strong{font-size:1.35rem}.review-stat small{font-size:.67rem;line-height:1.3}.review-card{min-height:170px;padding:18px 12px}.review-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.review-controls button{min-height:44px}.rating-btn{min-width:0}.interview{padding:14px}.mobile-nav{position:fixed;z-index:20;inset:auto 0 0;display:grid;grid-template-columns:repeat(4,1fr);gap:2px;padding:7px 8px calc(7px + env(safe-area-inset-bottom));background:rgba(255,255,255,.97);border-top:1px solid #dfe5ee;box-shadow:0 -5px 18px rgba(20,30,50,.08);backdrop-filter:blur(12px)}.mobile-nav a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-height:48px;border-radius:10px;color:#3c4a60;text-decoration:none;font-size:.7rem;font-weight:700}.mobile-nav a span:first-child{font-size:1.15rem;line-height:1.1}.mobile-nav a:active{background:#edf2ff;color:#185adb}footer{padding-bottom:20px}
+}
+@media(min-width:701px){.mobile-nav{display:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap hero">
+  <div class="eyebrow">ENGLISH FOR HONG KONG JOB HUNTING</div>
+  <h1>香港求職英語發音練習室</h1>
+  <p>專攻剪輯、動畫、多媒體、數字內容與香港職場溝通。按「聽發音」朗讀單詞或句子；用搜尋找詞；完成後勾選記錄；還可以錄音做文字匹配式發音檢查。</p>
+  <div class="hero-pills"><span class="pill">可調語速</span><span class="pill">英式／美式發音（視瀏覽器語音而定）</span><span class="pill">詞彙＋例句＋面試句型</span><span class="pill">間隔複習模組</span><span class="pill">語音識別讀音糾錯</span><span class="pill">學習記錄保存在此瀏覽器</span></div>
+</div><div class="app-actions"><button class="install-app" id="installApp" type="button">📲 安裝／加入主畫面</button><span class="install-note" id="installNote" aria-live="polite">可透過瀏覽器選單加入手機主畫面</span></div></div></header>
+<main class="wrap">
+  <div class="toolbar">
+    <div><label for="search">搜尋單詞、中文或例句</label><input id="search" type="search" placeholder="例如：deadline、剪輯、feedback…"></div>
+    <div><label for="category">分類</label><select id="category"><option value="all">全部分類</option><option value="職場與招聘">職場與招聘</option><option value="剪輯與製作">剪輯與製作</option><option value="內容與數據">內容與數據</option><option value="工作溝通">工作溝通</option></select></div>
+    <div><label for="voice">朗讀聲音</label><select id="voice"><option value="en-GB">英式英文（en-GB）</option><option value="en-US">美式英文（en-US）</option><option value="any">任何英文聲音</option></select><div style="display:flex;align-items:center;gap:8px;margin-top:8px"><label for="speed" style="margin:0;white-space:nowrap">語速</label><input id="speed" type="range" min="0.55" max="1.05" step="0.05" value="0.75" style="width:100%"><span id="speedValue" style="font-size:.85rem;min-width:35px">0.75×</span></div></div>
+  </div>
+  <div class="tip"><strong>發音怎麼用：</strong>點「聽單詞」聽發音，點「聽例句」聽整句。也可以點「詞典發音」打開 Cambridge Dictionary 查真人詞典音頻。瀏覽器朗讀聲音由你的設備提供；如果沒有聲音，先檢查音量，或使用 Edge／Chrome 並選擇已安裝的英文語音。</div>
+  <section class="review-module" id="reviewModule" aria-labelledby="reviewTitle">
+    <div class="section-head"><div><h2 id="reviewTitle">複習模組：記住詞彙和常用句</h2><p>先看中文回想英文，再翻開答案；按記憶難度安排下一次複習時間。</p></div><div class="count" id="reviewSummaryText">正在整理複習清單…</div></div>
+    <div class="review-stats">
+      <div class="review-stat"><span>待複習</span><strong id="reviewDueCount">—</strong><small>新學和到期內容</small></div>
+      <div class="review-stat"><span>未複習</span><strong id="reviewNewCount">—</strong><small>尚未做過卡片測試</small></div>
+      <div class="review-stat"><span>稍後再複習</span><strong id="reviewLaterCount">—</strong><small>已安排未來日期</small></div>
+    </div>
+    <div class="review-actions">
+      <button class="btn-primary" id="startDueReview">開始今日複習（最多10題）</button>
+      <button class="btn-light" id="startRandomReview">隨機抽查10題</button>
+      <button class="btn-quiet" id="resetReviewData">重置複習排程</button>
+    </div>
+    <p class="notice">使用方法：先試著說出英文，再顯示答案。選「忘了」會在10分鐘後再排一次；「有點難」「記住了」「太簡單」會安排更長的間隔。複習記錄保存在目前瀏覽器，不會自動同步到其他裝置。</p>
+    <div id="reviewArea" class="review-area" hidden>
+      <div class="review-session-top"><strong id="reviewSessionLabel">今日複習</strong><span id="reviewSessionProgress" class="count"></span></div>
+      <article id="reviewCard" class="review-card" aria-live="polite"></article>
+      <div id="reviewControls" class="review-controls"></div>
+    </div>
+  </section>
+
+  <section class="pron-module" id="pronModule" aria-labelledby="pronTitle">
+    <div class="section-head">
+      <div>
+        <h2 id="pronTitle">發音訓練：錄音 → 識別 → 糾錯</h2>
+        <p>用瀏覽器麥克風讀出英文，系統會把你的語音轉成文字，和目標句做比對。</p>
+      </div>
+      <div class="count" id="pronSupport">檢查瀏覽器支援中…</div>
+    </div>
+    <div class="pron-grid">
+      <div class="pron-panel">
+        <label for="pronSelect">選擇練習內容</label>
+        <select id="pronSelect"></select>
+        <div style="margin-top:14px">
+          <div class="pron-small">目標英文</div>
+          <div id="pronTarget" class="pron-target">—</div>
+          <div id="pronIPA" class="pron-ipa"></div>
+          <div id="pronTip" class="pron-tip">提示：先聽一次，再自己讀。</div>
+        </div>
+        <div class="pron-buttons">
+          <button class="btn-primary" id="pronListen">🔊 先聽一次</button>
+          <button class="btn-light" id="pronRecord">🎙 開始錄音</button>
+          <button class="btn-quiet" id="pronStop" disabled>⏹ 停止</button>
+        </div>
+        <div class="pron-small" style="margin-top:10px">
+          需要允許瀏覽器使用麥克風。語音識別主要用來檢查「你說出的英文文字是否接近目標」，
+          <strong>不能等同於專業音素評測</strong>；它不會假裝判定你的每一個音是否標準。
+        </div>
+      </div>
+      <div class="pron-panel">
+        <div class="pron-small">識別結果</div>
+        <div id="pronTranscript" class="pron-transcript" style="margin-top:6px">尚未錄音</div>
+        <div class="pron-meter"><span id="pronMeter"></span></div>
+        <div id="pronFeedback" class="pron-result" style="margin-top:12px">
+          <strong>怎麼看結果？</strong><br>
+          先完成一次錄音。系統會指出可能漏掉或多說的詞，並給你下一次練習的重點。
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-head" id="vocabulary"><div><h2>一、核心詞彙</h2><p>先熟悉招聘JD、剪輯製作與內容數據中常見的詞。</p></div><div class="count" id="wordCount"></div></div>
+  <div class="grid" id="wordGrid"></div>
+  <div class="section-head" id="phrases"><div><h2>二、香港職場常用句</h2><p>先背整句，工作時比臨時拼單詞更好用。</p></div><div class="count" id="phraseCount"></div></div>
+  <div class="grid" id="phraseGrid"></div>
+  <div class="section-head" id="interviews"><div><h2>三、面試自我介紹與作品說明</h2><p>請把模板改成符合你真實經歷的版本，不要背不屬於自己的經驗。</p></div></div>
+  <div id="interviewList"></div>
+  <div class="section-head" id="plan"><div><h2>四、14天加急學習安排</h2><p>每天20–30分鐘；以能聽懂、說出來為準，不要求一次記住全部。</p></div></div>
+  <div class="daylist" id="dayList"></div>
+  <p class="notice">提示：香港職場可能使用英式拼寫（例如 colour、organise），但實際口音因公司及個人而異。學習時優先追求清晰、可理解，不必模仿某一種口音。</p>
+  <div class="status" id="status" aria-live="polite">發音就緒。若瀏覽器語音尚未載入，第一次點擊可能需要稍等片刻。</div>
+</main>
+<nav class="mobile-nav" aria-label="主要導覽"><a href="#vocabulary"><span>📚</span><span>詞彙</span></a><a href="#reviewModule"><span>🔁</span><span>複習</span></a><a href="#pronModule"><span>🎙️</span><span>發音</span></a><a href="#plan"><span>🗓️</span><span>計劃</span></a></nav>
+<footer>香港求職英語練習室 · 單頁網頁版。學習進度與間隔複習排程僅存於目前瀏覽器；清除網站資料可能會刪除記錄。</footer>
+<script>
+const words = [
+{cat:'職場與招聘',en:'job description',ipa:'/ˈdʒɒb dɪˌskrɪpʃən/',zh:'職位描述（JD）',ex:'I read the job description carefully before applying.'},
+{cat:'職場與招聘',en:'responsibilities',ipa:'/rɪˌspɒnsəˈbɪlətiz/',zh:'工作職責',ex:'The main responsibilities include video editing and content production.'},
+{cat:'職場與招聘',en:'requirements',ipa:'/rɪˈkwaɪəmənts/',zh:'任職要求',ex:'I meet most of the requirements for this position.'},
+{cat:'職場與招聘',en:'deadline',ipa:'/ˈdedlaɪn/',zh:'截止時間；交付期限',ex:'I can deliver the first draft before the deadline.'},
+{cat:'職場與招聘',en:'brief',ipa:'/briːf/',zh:'項目需求簡報；製作要求',ex:'Could you share the creative brief with me?'},
+{cat:'職場與招聘',en:'deliverable',ipa:'/dɪˈlɪvərəbəl/',zh:'交付成果',ex:'The final video is one of the project deliverables.'},
+{cat:'職場與招聘',en:'feedback',ipa:'/ˈfiːdbæk/',zh:'反饋；修改意見',ex:'Thank you for the feedback. I will revise the video.'},
+{cat:'職場與招聘',en:'revision',ipa:'/rɪˈvɪʒən/',zh:'修改；修訂版本',ex:'I have completed the revisions.'},
+{cat:'職場與招聘',en:'coordinate',ipa:'/kəʊˈɔːdɪneɪt/',zh:'協調',ex:'I can coordinate with the design and marketing teams.'},
+{cat:'職場與招聘',en:'approval',ipa:'/əˈpruːvəl/',zh:'批准；確認',ex:'I will export the final version after approval.'},
+{cat:'職場與招聘',en:'timeline',ipa:'/ˈtaɪmlaɪn/',zh:'時間安排；進度表',ex:'I will update the project timeline today.'},
+{cat:'職場與招聘',en:'portfolio',ipa:'/pɔːtˈfəʊliəʊ/',zh:'作品集',ex:'I have included my portfolio in the application.'},
+{cat:'職場與招聘',en:'clarify',ipa:'/ˈklærɪfaɪ/',zh:'澄清；確認清楚',ex:'I would like to clarify the main objective first.'},
+{cat:'職場與招聘',en:'follow up',ipa:'/ˈfɒləʊ ʌp/',zh:'跟進',ex:'I am following up on my job application.'},
+{cat:'職場與招聘',en:'handover',ipa:'/ˈhændəʊvə/',zh:'工作交接',ex:'I will prepare the project files for handover.'},
+{cat:'剪輯與製作',en:'footage',ipa:'/ˈfʊtɪdʒ/',zh:'影片素材；拍攝片段',ex:'I will review the footage before editing.'},
+{cat:'剪輯與製作',en:'raw footage',ipa:'/rɔː ˈfʊtɪdʒ/',zh:'原始影片素材',ex:'Please send me the raw footage and audio files.'},
+{cat:'剪輯與製作',en:'storyboard',ipa:'/ˈstɔːribɔːd/',zh:'分鏡；故事板',ex:'I created a storyboard before production.'},
+{cat:'剪輯與製作',en:'shot list',ipa:'/ˈʃɒt lɪst/',zh:'鏡頭清單',ex:'The shot list helps us plan the filming.'},
+{cat:'剪輯與製作',en:'rough cut',ipa:'/rʌf kʌt/',zh:'粗剪版',ex:'I will send you the rough cut for review.'},
+{cat:'剪輯與製作',en:'fine cut',ipa:'/faɪn kʌt/',zh:'精剪版',ex:'The fine cut includes the final timing and transitions.'},
+{cat:'剪輯與製作',en:'final cut',ipa:'/ˈfaɪnəl kʌt/',zh:'最終剪輯版',ex:'The final cut is ready for approval.'},
+{cat:'剪輯與製作',en:'B-roll',ipa:'/ˈbiː rəʊl/',zh:'補充鏡頭；輔助畫面',ex:'I added B-roll to make the story more engaging.'},
+{cat:'剪輯與製作',en:'voice-over',ipa:'/ˈvɔɪs ˌəʊvə/',zh:'旁白；配音',ex:'The video needs a clear voice-over.'},
+{cat:'剪輯與製作',en:'subtitle',ipa:'/ˈsʌbtaɪtəl/',zh:'字幕',ex:'I checked the subtitles for spelling mistakes.'},
+{cat:'剪輯與製作',en:'caption',ipa:'/ˈkæpʃən/',zh:'社交媒體文案；說明文字；字幕',ex:'I also prepared the caption for social media.'},
+{cat:'剪輯與製作',en:'transition',ipa:'/trænˈzɪʃən/',zh:'轉場',ex:'I used a simple transition between the scenes.'},
+{cat:'剪輯與製作',en:'pacing',ipa:'/ˈpeɪsɪŋ/',zh:'剪輯節奏',ex:'I adjusted the pacing to make the video clearer.'},
+{cat:'剪輯與製作',en:'colour correction',ipa:'/ˈkʌlə kəˈrekʃən/',zh:'色彩校正',ex:'I completed the colour correction in DaVinci Resolve.'},
+{cat:'剪輯與製作',en:'colour grading',ipa:'/ˈkʌlə ˈɡreɪdɪŋ/',zh:'調色；建立整體色調',ex:'The colour grading gives the video a consistent look.'},
+{cat:'剪輯與製作',en:'motion graphics',ipa:'/ˈməʊʃən ˈɡræfɪks/',zh:'動態圖形；MG動畫',ex:'I have experience creating motion graphics.'},
+{cat:'剪輯與製作',en:'compositing',ipa:'/kəmˈpɒzɪtɪŋ/',zh:'合成；畫面合成',ex:'I used compositing to combine several visual elements.'},
+{cat:'剪輯與製作',en:'keyframe',ipa:'/ˈkiːfreɪm/',zh:'關鍵影格',ex:'I used keyframes to animate the text.'},
+{cat:'剪輯與製作',en:'render',ipa:'/ˈrendə/',zh:'渲染',ex:'The project is rendering now.'},
+{cat:'剪輯與製作',en:'export',ipa:'/ɪkˈspɔːt/',zh:'匯出',ex:'I will export the video in 1080p.'},
+{cat:'剪輯與製作',en:'aspect ratio',ipa:'/ˈæspekt ˌreɪʃiəʊ/',zh:'畫面比例',ex:'Please confirm the aspect ratio for each platform.'},
+{cat:'剪輯與製作',en:'frame rate',ipa:'/ˈfreɪm reɪt/',zh:'影格率；幀率',ex:'The required frame rate is 25 frames per second.'},
+{cat:'剪輯與製作',en:'resolution',ipa:'/ˌrezəˈluːʃən/',zh:'解析度',ex:'I exported the final video in high resolution.'},
+{cat:'剪輯與製作',en:'sound design',ipa:'/ˈsaʊnd dɪˌzaɪn/',zh:'聲音設計',ex:'Good sound design can improve the viewing experience.'},
+{cat:'剪輯與製作',en:'asset library',ipa:'/ˈæset ˈlaɪbrəri/',zh:'素材庫；資產庫',ex:'I organised the asset library for the team.'},
+{cat:'剪輯與製作',en:'project file',ipa:'/ˈprɒdʒekt faɪl/',zh:'工程文件',ex:'I will send the project file with the final export.'},
+{cat:'內容與數據',en:'target audience',ipa:'/ˈtɑːɡɪt ˈɔːdiəns/',zh:'目標受眾',ex:'We should define the target audience before production.'},
+{cat:'內容與數據',en:'content calendar',ipa:'/ˈkɒntent ˈkælɪndə/',zh:'內容日曆；發布排期表',ex:'I prepared a content calendar for next month.'},
+{cat:'內容與數據',en:'hook',ipa:'/hʊk/',zh:'吸引觀眾繼續看的開場',ex:'The first three seconds need a strong hook.'},
+{cat:'內容與數據',en:'reach',ipa:'/riːtʃ/',zh:'觸及人數',ex:'Reach shows how many people saw the content.'},
+{cat:'內容與數據',en:'impressions',ipa:'/ɪmˈpreʃənz/',zh:'曝光次數',ex:'Impressions count how many times content was displayed.'},
+{cat:'內容與數據',en:'engagement',ipa:'/ɪnˈɡeɪdʒmənt/',zh:'互動；互動程度',ex:'Comments and shares are examples of engagement.'},
+{cat:'內容與數據',en:'watch time',ipa:'/wɒtʃ taɪm/',zh:'觀看時長',ex:'We can compare watch time across different videos.'},
+{cat:'內容與數據',en:'retention',ipa:'/rɪˈtenʃən/',zh:'觀眾留存；留存率',ex:'Audience retention can show when viewers stop watching.'},
+{cat:'內容與數據',en:'click-through rate',ipa:'/ˈklɪk θruː reɪt/',zh:'點擊率',ex:'The click-through rate measures how often people click.'},
+{cat:'內容與數據',en:'conversion',ipa:'/kənˈvɜːʃən/',zh:'轉化；轉換',ex:'The campaign aims to increase conversions.'},
+{cat:'內容與數據',en:'call to action',ipa:'/ˌkɔːl tə ˈækʃən/',zh:'行動呼籲；CTA',ex:'The call to action asks viewers to register.'},
+{cat:'內容與數據',en:'analytics',ipa:'/ˌænəˈlɪtɪks/',zh:'數據分析；分析數據',ex:'I use analytics to review content performance.'},
+{cat:'內容與數據',en:'KPI',ipa:'/ˌkeɪ piː ˈaɪ/',zh:'關鍵績效指標',ex:'Could you clarify the main KPI for this project?'}
+];
+const phrases = [
+{cat:'工作溝通',en:'Could you clarify the main objective?',zh:'可以說明一下主要目標嗎？'},
+{cat:'工作溝通',en:'Could you share the creative brief with me?',zh:'可以把創意需求簡報發給我嗎？'},
+{cat:'工作溝通',en:'What is the deadline for this video?',zh:'這條影片的截止時間是什麼時候？'},
+{cat:'工作溝通',en:'I will send you the first draft by Friday.',zh:'我會在星期五前把第一版發給你。'},
+{cat:'工作溝通',en:'I have completed the revisions.',zh:'我已經完成修改。'},
+{cat:'工作溝通',en:'Could you be more specific about the feedback?',zh:'可以把反饋說得更具體一些嗎？'},
+{cat:'工作溝通',en:'Just to confirm, we need a 30-second video, right?',zh:'確認一下，我們需要一條30秒的影片，對嗎？'},
+{cat:'工作溝通',en:'I will check the files and get back to you.',zh:'我會檢查文件，再回覆你。'},
+{cat:'工作溝通',en:'I may need a little more time to finish this.',zh:'我可能需要多一點時間完成這件事。'},
+{cat:'工作溝通',en:'I can deliver the final version by tomorrow afternoon.',zh:'我可以在明天下午前交付最終版本。'},
+{cat:'工作溝通',en:'Please let me know if any changes are needed.',zh:'如果需要修改，請告訴我。'},
+{cat:'工作溝通',en:'I have attached the updated file.',zh:'我已附上更新後的文件。'},
+{cat:'工作溝通',en:'Would you prefer the vertical or horizontal format?',zh:'你比較需要直式還是橫式格式？'},
+{cat:'工作溝通',en:'Do we have approval to use this music?',zh:'這段音樂已經取得使用批准了嗎？'},
+{cat:'工作溝通',en:'I suggest testing two versions of the opening.',zh:'我建議測試兩個不同的開場版本。'},
+{cat:'工作溝通',en:'The current version is 30 seconds long.',zh:'目前這個版本長30秒。'},
+{cat:'工作溝通',en:'I used the feedback to improve the next version.',zh:'我根據反饋改進了下一個版本。'},
+{cat:'工作溝通',en:'Could you confirm the target audience and platform?',zh:'可以確認一下目標受眾和發布平台嗎？'},
+{cat:'工作溝通',en:'I am following up on my application for the position.',zh:'我想跟進一下這個職位的申請進度。'},
+{cat:'工作溝通',en:'Thank you for your time and consideration.',zh:'感謝你抽時間考慮我的申請。'},
+{cat:'工作溝通',en:'I have experience in video editing, animation and AI-assisted content production.',zh:'我有影片剪輯、動畫和AI輔助內容製作經驗。'},
+{cat:'工作溝通',en:'My role focused on post-production and visual packaging.',zh:'我的工作主要集中在後期製作和視覺包裝。'},
+{cat:'工作溝通',en:'I usually start by clarifying the goal, audience and deadline.',zh:'我通常會先確認目標、受眾和交付期限。'},
+{cat:'工作溝通',en:'I am comfortable following a brief and making revisions based on feedback.',zh:'我能根據需求執行，並按照反饋進行修改。'},
+{cat:'工作溝通',en:'I am improving my professional English and can communicate clearly about tasks and timelines.',zh:'我正在提升職場英語，也能清楚溝通任務和時間安排。'},
+{cat:'工作溝通',en:'I have not yet obtained Hong Kong work authorisation, and I will confirm my immigration arrangements before taking up employment.',zh:'我目前尚未取得香港工作許可，會在正式入職前確認相關入境安排。'}
+];
+const interviews = [
+{q:'Tell me about yourself.',a:'I have experience in video editing, animation and AI-assisted content production. I have worked on media content, motion graphics and short-form videos.',zh:'我有影片剪輯、動畫和AI輔助內容製作經驗，做過媒體內容、動態圖形和短影片。'},
+{q:'Can you walk me through your portfolio?',a:'This project was created for [project goal]. My responsibilities included [your tasks]. I focused on [editing / motion graphics / visual packaging], and the final video was delivered for [platform or client].',zh:'這個項目是為了［項目目標］製作的。我負責［你的工作］，主要處理［剪輯／MG動畫／視覺包裝］，最後交付到［平台或客戶］。請用真實項目替換方括號內容。'},
+{q:'How do you handle feedback and revisions?',a:'I first confirm the requested changes and the deadline. Then I revise the video, check the final export, and let the team know when it is ready.',zh:'我會先確認需要修改的地方和截止時間，再修改影片、檢查匯出文件，並通知團隊何時完成。'},
+{q:'How do you approach a new video project?',a:'I clarify the objective, target audience, platform, style and deadline. Then I review the materials, plan the edit, and share a draft for feedback.',zh:'我會先確認目標、受眾、平台、風格和期限，再檢查素材、規劃剪輯並提交初版收集反饋。'},
+{q:'What is your current Hong Kong work authorisation status?',a:'I have not yet obtained Hong Kong work authorisation. I am checking the relevant immigration route and will confirm my status before taking up employment.',zh:'我目前尚未取得香港工作許可，正在了解合適的入境途徑，並會在正式入職前確認自己的資格。只有符合你當前實際情況時才使用這個回答。'}
+];
+const days = [
+['第1天','招聘詞：job description、requirements、responsibilities、deadline'],['第2天','職場句：確認需求、問截止時間、回覆進度'],['第3天','剪輯流程：footage、rough cut、fine cut、final cut'],['第4天','製作術語：storyboard、voice-over、transition、pacing'],['第5天','軟件與交付：render、export、resolution、aspect ratio'],['第6天','內容數據：reach、impressions、engagement、watch time'],['第7天','複習前六天；不看中文說出10個詞'],['第8天','練60秒英文自我介紹並錄音'],['第9天','用英文介紹一個真實作品'],['第10天','練習如何確認修改意見和交付期限'],['第11天','練習解釋一個剪輯選擇'],['第12天','模擬五個常見面試問題'],['第13天','不看稿做一次完整作品介紹'],['第14天','記下最不熟的10個詞，安排下一輪複習']
+];
+const storageKey='hkMediaEnglishLearnedV1';let learned=new Set();try{learned=new Set(JSON.parse(localStorage.getItem(storageKey)||'[]'))}catch(e){}
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function currentSpeed(){return Number(document.getElementById('speed').value)}
+function status(msg){document.getElementById('status').textContent=msg}
+function speak(text,kind='sentence'){if(!('speechSynthesis' in window)){status('此瀏覽器不支援內建朗讀，請使用詞典連結聽發音。');return}window.speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);const pref=document.getElementById('voice').value;const voices=window.speechSynthesis.getVoices();let choices=voices.filter(v=>/^en(-|_)/i.test(v.lang));let chosen=null;if(pref!=='any')chosen=choices.find(v=>v.lang.toLowerCase().replace('_','-').startsWith(pref.toLowerCase()))||null;if(!chosen)chosen=choices.find(v=>v.lang.toLowerCase().startsWith('en-gb'))||choices[0]||null;if(chosen){u.voice=chosen;u.lang=chosen.lang}else{u.lang=pref==='en-US'?'en-US':'en-GB'}u.rate=currentSpeed();u.pitch=1;u.onstart=()=>status('正在朗讀：'+text);u.onend=()=>status('朗讀完成。可再聽一次，或跟讀錄音。');u.onerror=()=>status('沒有成功播放。請檢查裝置音量或切換另一個聲音。');window.speechSynthesis.speak(u)}
+function cambridge(en){return 'https://dictionary.cambridge.org/dictionary/english/'+encodeURIComponent(en.toLowerCase().replaceAll(' ','-'))}
+function renderWords(){const q=document.getElementById('search').value.toLowerCase().trim(),cat=document.getElementById('category').value;const list=words.filter(w=>(cat==='all'||w.cat===cat)&&(!q||[w.en,w.zh,w.ex,w.ipa,w.cat].join(' ').toLowerCase().includes(q)));document.getElementById('wordCount').textContent=`顯示 ${list.length} / ${words.length} 個詞`;document.getElementById('wordGrid').innerHTML=list.length?list.map((w,i)=>{let done=learned.has('w:'+w.en);return `<article class="card ${done?'learned':''}"><div class="wordtop"><div><span class="category-tag">${esc(w.cat)}</span><div class="word">${esc(w.en)}</div><div class="ipa">${esc(w.ipa)}</div></div><label class="check"><input type="checkbox" ${done?'checked':''} onchange="toggleLearned('w:${esc(w.en)}',this.checked)"> 已掌握</label></div><div class="meaning">${esc(w.zh)}</div><div class="example">${esc(w.ex)}</div><div class="controls"><button class="btn-primary btn-mini" onclick="speak(this.dataset.text)" data-text="${esc(w.en)}">🔊 聽單詞</button><button class="btn-light btn-mini" onclick="speak(this.dataset.text)" data-text="${esc(w.ex)}">🔊 聽例句</button><button class="btn-quiet btn-mini" onclick="window.open(this.dataset.url, '_blank', 'noopener')" data-url="${esc(cambridge(w.en))}">詞典發音 ↗</button></div></article>`}).join(''):'<div class="empty">找不到符合的詞，試試其他關鍵字。</div>';updateProgress()}
+function renderPhrases(){const q=document.getElementById('search').value.toLowerCase().trim();const list=phrases.filter(p=>(document.getElementById('category').value==='all'||document.getElementById('category').value===p.cat)&&(!q||[p.en,p.zh,p.cat].join(' ').toLowerCase().includes(q)));document.getElementById('phraseCount').textContent=`顯示 ${list.length} / ${phrases.length} 句`;document.getElementById('phraseGrid').innerHTML=list.length?list.map(p=>{let done=learned.has('p:'+p.en);return `<article class="card ${done?'learned':''}"><div class="wordtop"><span class="category-tag">${esc(p.cat)}</span><label class="check"><input type="checkbox" ${done?'checked':''} onchange="toggleLearned('p:${esc(p.en)}',this.checked)"> 已掌握</label></div><div class="phrase-en">${esc(p.en)}</div><div class="phrase-zh">${esc(p.zh)}</div><div class="controls"><button class="btn-primary btn-mini" onclick="speak(this.dataset.text)" data-text="${esc(p.en)}">🔊 聽整句</button><button class="btn-quiet btn-mini" onclick="copyText(this.dataset.text)" data-text="${esc(p.en)}">複製英文</button></div></article>`}).join(''):'<div class="empty">找不到符合的句子，試試其他關鍵字。</div>';updateProgress()}
+function toggleLearned(id,v){if(v)learned.add(id);else learned.delete(id);try{localStorage.setItem(storageKey,JSON.stringify([...learned]))}catch(e){}renderWords();renderPhrases()}
+function updateProgress(){const total=words.length+phrases.length;const num=learned.size;document.getElementById('status').textContent=`目前已標記掌握 ${num}/${total} 項。進度會保存在此瀏覽器。`}
+function copyText(text){if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(text).then(()=>status('英文句子已複製。')).catch(()=>fallbackCopy(text));else fallbackCopy(text)}function fallbackCopy(text){const el=document.createElement('textarea');el.value=text;document.body.appendChild(el);el.select();document.execCommand('copy');el.remove();status('英文句子已複製。')}
+// Spaced-repetition review module. Unseen items are considered due today.
+const reviewStorageKey='hkMediaEnglishReviewV1';
+let reviewSchedule={};
+try{reviewSchedule=JSON.parse(localStorage.getItem(reviewStorageKey)||'{}')||{}}catch(e){reviewSchedule={}}
+const reviewItems=[
+  ...words.map(w=>({id:'w:'+w.en,kind:'word',cat:w.cat,prompt:w.zh,answer:w.en,ipa:w.ipa||'',example:w.ex||''})),
+  ...phrases.map(p=>({id:'p:'+p.en,kind:'phrase',cat:p.cat,prompt:p.zh,answer:p.en,ipa:'',example:''}))
+];
+let reviewQueue=[];let reviewPosition=0;let currentReviewItem=null;let reviewAnswerShown=false;let reviewMode='due';
+function saveReviewSchedule(){try{localStorage.setItem(reviewStorageKey,JSON.stringify(reviewSchedule))}catch(e){status('無法保存複習記錄。請確認瀏覽器允許此網頁使用本機儲存。')}}
+function getReviewStats(){const now=Date.now();let due=0,fresh=0,later=0;for(const item of reviewItems){const rec=reviewSchedule[item.id];if(!rec){due++;fresh++}else if(Number(rec.dueAt||0)<=now){due++}else{later++}}return {due,fresh,later,total:reviewItems.length}}
+function renderReviewStats(){const st=getReviewStats();document.getElementById('reviewDueCount').textContent=st.due;document.getElementById('reviewNewCount').textContent=st.fresh;document.getElementById('reviewLaterCount').textContent=st.later;document.getElementById('reviewSummaryText').textContent=`共 ${st.total} 張卡片`;document.getElementById('startDueReview').textContent=st.due?`開始今日複習（最多10題） · ${st.due} 待複習`:'目前沒有到期卡片';}
+function shuffled(list){const arr=[...list];for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]]}return arr}
+function startReview(mode){reviewMode=mode;const now=Date.now();let candidates=reviewItems.filter(item=>mode==='all'||!reviewSchedule[item.id]||Number(reviewSchedule[item.id].dueAt||0)<=now);if(mode==='due')candidates.sort((a,b)=>{const aa=reviewSchedule[a.id]?.dueAt||0,bb=reviewSchedule[b.id]?.dueAt||0;return aa-bb});else candidates=shuffled(candidates);reviewQueue=candidates.slice(0,10);reviewPosition=0;document.getElementById('reviewArea').hidden=false;document.getElementById('reviewSessionLabel').textContent=mode==='due'?'今日到期複習':'隨機抽查';if(!reviewQueue.length){currentReviewItem=null;renderReviewComplete('目前沒有到期卡片','你可以稍後再來複習，或點「隨機抽查10題」檢查記憶。');return}showReviewCard();document.getElementById('reviewArea').scrollIntoView({behavior:'smooth',block:'nearest'})}
+function showReviewCard(){currentReviewItem=reviewQueue[reviewPosition];reviewAnswerShown=false;document.getElementById('reviewSessionProgress').textContent=`第 ${reviewPosition+1} / ${reviewQueue.length} 題`;document.getElementById('reviewCard').innerHTML=`<div class="review-kicker">${esc(currentReviewItem.cat)} · ${currentReviewItem.kind==='word'?'單詞':'常用句'}</div><div class="review-hint">看中文，試著自己說出英文</div><div class="review-prompt">${esc(currentReviewItem.prompt)}</div><div class="review-hint">想好後，再顯示答案</div>`;document.getElementById('reviewControls').innerHTML=`<button class="btn-primary" onclick="revealReviewAnswer()">顯示答案</button><button class="btn-quiet" onclick="skipReviewCard()">跳過本題</button>`;}
+function revealReviewAnswer(){if(!currentReviewItem)return;reviewAnswerShown=true;const it=currentReviewItem;document.getElementById('reviewCard').innerHTML=`<div class="review-kicker">${esc(it.cat)} · ${it.kind==='word'?'單詞':'常用句'}</div><div class="review-hint">中文提示</div><div class="review-answer-zh">${esc(it.prompt)}</div><div class="review-answer">${esc(it.answer)}</div>${it.ipa?`<div class="review-answer-ipa">${esc(it.ipa)}</div>`:''}${it.example?`<div class="review-example"><strong>例句</strong><br>${esc(it.example)}</div>`:''}`;document.getElementById('reviewControls').innerHTML=`<button class="btn-light" onclick="speak(this.dataset.text)" data-text="${esc(it.answer)}">🔊 聽英文</button>${it.example?`<button class="btn-quiet" onclick="speak(this.dataset.text)" data-text="${esc(it.example)}">🔊 聽例句</button>`:''}<button class="rating-btn rating-again" onclick="rateReview('again')">忘了</button><button class="rating-btn rating-hard" onclick="rateReview('hard')">有點難</button><button class="rating-btn rating-good" onclick="rateReview('good')">記住了</button><button class="rating-btn rating-easy" onclick="rateReview('easy')">太簡單</button>`;}
+function scheduleReview(item,rating){const now=Date.now();const old=reviewSchedule[item.id]||{};const oldInterval=Math.max(0,Number(old.intervalDays)||0);let intervalDays=1;let reps=Number(old.reps)||0;let lapses=Number(old.lapses)||0;if(rating==='again'){intervalDays=10/(60*24);reps=0;lapses++}else if(rating==='hard'){intervalDays=oldInterval>0?Math.max(1,Math.round(oldInterval*1.2*10)/10):1;reps++}else if(rating==='good'){intervalDays=oldInterval>0?Math.max(3,Math.round(oldInterval*2)):3;reps++}else{intervalDays=oldInterval>0?Math.max(7,Math.round(oldInterval*2.5)):7;reps++}reviewSchedule[item.id]={dueAt:now+intervalDays*24*60*60*1000,intervalDays,reps,lapses,lastRating:rating,lastReviewedAt:now};saveReviewSchedule();}
+function rateReview(rating){if(!currentReviewItem||!reviewAnswerShown)return;scheduleReview(currentReviewItem,rating);reviewPosition++;renderReviewStats();if(reviewPosition>=reviewQueue.length){renderReviewComplete('本輪複習完成！',`你完成了 ${reviewQueue.length} 題。忘記的卡片會在約10分鐘後重新到期；其他卡片會按難度安排到期時間。`);return}showReviewCard();}
+function skipReviewCard(){reviewPosition++;if(reviewPosition>=reviewQueue.length){renderReviewComplete('本輪已結束',`你跳過了部分內容。未評分的卡片仍會保留在待複習列表。`);return}showReviewCard()}
+function renderReviewComplete(title,msg){document.getElementById('reviewSessionProgress').textContent='已完成';document.getElementById('reviewCard').innerHTML=`<div class="review-complete"><h3>${esc(title)}</h3><p>${esc(msg)}</p><button class="btn-primary" onclick="startReview('due')">複習下一組到期卡片</button> <button class="btn-light" onclick="startReview('all')">再抽查10題</button></div>`;document.getElementById('reviewControls').innerHTML='';renderReviewStats()}
+function resetReview(){if(!confirm('確定清除所有間隔複習排程？這不會清除「已掌握」勾選記錄。'))return;reviewSchedule={};saveReviewSchedule();renderReviewStats();document.getElementById('reviewArea').hidden=true;status('複習排程已重置；卡片會重新列為待複習。')}
+document.getElementById('startDueReview').addEventListener('click',()=>startReview('due'));
+document.getElementById('startRandomReview').addEventListener('click',()=>startReview('all'));
+document.getElementById('resetReviewData').addEventListener('click',resetReview);
+
+
+// Pronunciation trainer: browser speech recognition + conservative text comparison.
+// It evaluates transcription similarity, not phoneme-level pronunciation accuracy.
+const pronSelect = document.getElementById('pronSelect');
+const pronTarget = document.getElementById('pronTarget');
+const pronIPA = document.getElementById('pronIPA');
+const pronTip = document.getElementById('pronTip');
+const pronTranscript = document.getElementById('pronTranscript');
+const pronFeedback = document.getElementById('pronFeedback');
+const pronMeter = document.getElementById('pronMeter');
+const pronRecord = document.getElementById('pronRecord');
+const pronStop = document.getElementById('pronStop');
+const pronSupport = document.getElementById('pronSupport');
+let recognition = null;
+let recognizing = false;
+let recognitionFinal = '';
+
+const pronItems = [
+  ...words.map(w=>({id:'w:'+w.en, label:`單詞｜${w.en}`, text:w.en, ipa:w.ipa||'', cat:w.cat, tip:pronWordTip(w.en,w.ipa||'')})),
+  ...phrases.map(p=>({id:'p:'+p.en, label:`句子｜${p.en}`, text:p.en, ipa:'', cat:p.cat, tip:pronPhraseTip(p.en)}))
+];
+
+function pronWordTip(text, ipa){
+  const syllables = text.replace(/[^A-Za-z'-]/g,' ').trim();
+  return `單詞練習：先聽，再慢速讀 2 次，最後用接近正常語速讀 1 次。音標：${ipa||'請用詞典音頻核對'}`;
+}
+function pronPhraseTip(text){
+  const wordsCount = text.trim().split(/\s+/).length;
+  return `句子練習：先抓內容詞（名詞、動詞、形容詞），再讀整句。約 ${wordsCount} 個詞；不要為了逐字清楚而把每個詞讀得一樣重。`;
+}
+function normalizeSpeech(s){
+  return s.toLowerCase()
+    .replace(/[“”"'.,!?;:()\-–—/]/g,' ')
+    .replace(/\s+/g,' ')
+    .trim();
+}
+function tokens(s){
+  return normalizeSpeech(s).split(' ').filter(Boolean);
+}
+function levenshtein(a,b){
+  const dp=Array.from({length:a.length+1},()=>Array(b.length+1).fill(0));
+  for(let i=0;i<=a.length;i++)dp[i][0]=i;
+  for(let j=0;j<=b.length;j++)dp[0][j]=j;
+  for(let i=1;i<=a.length;i++)for(let j=1;j<=b.length;j++){
+    const cost=a[i-1]===b[j-1]?0:1;
+    dp[i][j]=Math.min(dp[i-1][j]+1,dp[i][j-1]+1,dp[i-1][j-1]+cost);
+  }
+  return dp[a.length][b.length];
+}
+function compareSpeech(target, spoken){
+  const a=tokens(target), b=tokens(spoken);
+  if(!b.length) return {score:0,missing:a,extra:[],substitutions:[]};
+  const n=a.length,m=b.length;
+  const dp=Array.from({length:n+1},()=>Array(m+1).fill(0));
+  for(let i=0;i<=n;i++)dp[i][0]=i;
+  for(let j=0;j<=m;j++)dp[0][j]=j;
+  for(let i=1;i<=n;i++)for(let j=1;j<=m;j++){
+    const cost=a[i-1]===b[j-1]?0:1;
+    dp[i][j]=Math.min(dp[i-1][j]+1,dp[i][j-1]+1,dp[i-1][j-1]+cost);
+  }
+  // Backtrack to identify likely missing/extra/substitution tokens.
+  let i=n,j=m,missing=[],extra=[],subs=[];
+  while(i>0||j>0){
+    if(i>0&&j>0&&a[i-1]===b[j-1]){i--;j--;continue}
+    const diag=i>0&&j>0?dp[i-1][j-1]:Infinity;
+    const up=i>0?dp[i-1][j]:Infinity;
+    const left=j>0?dp[i][j-1]:Infinity;
+    if(diag<=up&&diag<=left){subs.unshift([a[i-1],b[j-1]]);i--;j--}
+    else if(up<=left){missing.unshift(a[i-1]);i--}
+    else {extra.unshift(b[j-1]);j--}
+  }
+  const distance=dp[n][m];
+  const score=Math.max(0,Math.round((1-distance/Math.max(n,m))*100));
+  return {score,missing,extra,substitutions:subs};
+}
+function renderPronOptions(){
+  pronSelect.innerHTML=pronItems.map((it,i)=>`<option value="${i}">${esc(it.label)}</option>`).join('');
+  updatePronTarget();
+}
+function updatePronTarget(){
+  const it=pronItems[Number(pronSelect.value)||0];
+  if(!it)return;
+  pronTarget.textContent=it.text;
+  pronIPA.textContent=it.ipa?`/ ${it.ipa} /`:'';
+  pronTip.textContent=it.tip;
+  pronTranscript.textContent='尚未錄音';
+  pronFeedback.innerHTML='<strong>怎麼練？</strong><br>先聽一次，再自己讀。錄音後我會比較你的語音識別文字與目標句。';
+  pronFeedback.className='pron-result';
+  pronMeter.style.width='0%';
+}
+function speechLang(){return document.getElementById('voice').value==='en-GB'?'en-GB':'en-US'}
+function showPronResult(spoken){
+  const it=pronItems[Number(pronSelect.value)||0];
+  const r=compareSpeech(it.text,spoken);
+  pronTranscript.textContent=spoken || '沒有辨識到英文';
+  pronMeter.style.width=r.score+'%';
+  let cls=r.score>=90?'pron-good':r.score>=65?'pron-warn':'pron-bad';
+  let html=`<strong>文字匹配度：${r.score}%</strong><br>`;
+  if(r.score>=90) html+=`很接近目標。下一輪可以把重點放在自然語速、句子重音和節奏。`;
+  else if(r.score>=65) html+=`大致接近，但還有幾個詞需要再練。請看下面的差異。`;
+  else html+=`辨識結果與目標差距較大。先放慢速度，逐詞聽讀，再重錄一次。`;
+  if(r.missing.length) html+=`<div style="margin-top:8px"><span class="pron-missing">可能漏掉：</span>${esc(r.missing.join(', '))}</div>`;
+  if(r.extra.length) html+=`<div style="margin-top:5px"><span class="pron-extra">可能多說：</span>${esc(r.extra.join(', '))}</div>`;
+  if(r.substitutions.length) html+=`<div style="margin-top:5px"><span class="pron-extra">可能讀成：</span>${r.substitutions.map(x=>`${esc(x[0])} → ${esc(x[1])}`).join('；')}</div>`;
+  html+=`<div class="pron-tip" style="margin-top:10px"><strong>下一步：</strong>${esc(it.tip)}</div>`;
+  pronFeedback.innerHTML=html;
+  pronFeedback.className='pron-result '+cls;
+}
+function setupRecognition(){
+  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+  if(!SR){
+    pronSupport.textContent='此瀏覽器不支援語音識別';
+    pronRecord.disabled=true;
+    pronStop.disabled=true;
+    pronFeedback.innerHTML='<strong>目前瀏覽器不支援語音識別。</strong><br>可改用較新的 Edge 或 Chrome；也可以先用「聽發音」＋跟讀方式練習。';
+    return;
+  }
+  pronSupport.textContent='支援麥克風語音識別';
+  recognition=new SR();
+  recognition.lang=speechLang();
+  recognition.interimResults=true;
+  recognition.continuous=false;
+  recognition.maxAlternatives=1;
+  recognition.onstart=()=>{recognizing=true;recognitionFinal='';pronRecord.disabled=true;pronStop.disabled=false;pronTranscript.textContent='正在聽…';pronFeedback.innerHTML='請自然讀出目標英文，不需要喊得很大聲。'};
+  recognition.onresult=(event)=>{
+    let interim='';
+    for(let i=event.resultIndex;i<event.results.length;i++){
+      const txt=event.results[i][0].transcript;
+      if(event.results[i].isFinal) recognitionFinal += ' '+txt; else interim += txt;
+    }
+    pronTranscript.textContent=(recognitionFinal+' '+interim).trim()||'正在辨識…';
+  };
+  recognition.onerror=(event)=>{
+    recognizing=false;pronRecord.disabled=false;pronStop.disabled=true;
+    const msg=event.error==='not-allowed'?'麥克風權限被拒絕，請在瀏覽器網址列允許麥克風。':event.error==='no-speech'?'沒有聽到清楚的語音，請再試一次。':`語音識別發生問題：${event.error}`;
+    pronFeedback.innerHTML=`<strong>${esc(msg)}</strong><br>若是第一次使用，請確認瀏覽器允許麥克風。`;
+    pronFeedback.className='pron-result pron-warn';
+  };
+  recognition.onend=()=>{
+    recognizing=false;pronRecord.disabled=false;pronStop.disabled=true;
+    const spoken=normalizeSpeech(recognitionFinal);
+    if(spoken) showPronResult(spoken);
+  };
+}
+document.getElementById('pronListen').addEventListener('click',()=>{
+  const it=pronItems[Number(pronSelect.value)||0];
+  speak(it.text);
+});
+pronSelect.addEventListener('change',updatePronTarget);
+pronRecord.addEventListener('click',()=>{
+  if(!recognition){setupRecognition(); if(!recognition)return}
+  recognition.lang=speechLang();
+  try{recognition.start()}catch(e){}
+});
+pronStop.addEventListener('click',()=>{if(recognition&&recognizing)recognition.stop()});
+setupRecognition();
+renderPronOptions();
+
+
+function renderInterviews(){document.getElementById('interviewList').innerHTML=interviews.map((x,i)=>`<article class="interview"><h3>${i+1}. ${esc(x.q)}</h3><p>${esc(x.a)}</p><p class="zh">${esc(x.zh)}</p><div class="controls"><button class="btn-primary btn-mini" onclick="speak(this.dataset.text)" data-text="${esc(x.a)}">🔊 聽回答</button><button class="btn-quiet btn-mini" onclick="copyText(this.dataset.text)" data-text="${esc(x.a)}">複製英文</button></div></article>`).join('')}
+function renderDays(){document.getElementById('dayList').innerHTML=days.map(([d,t])=>`<div class="day"><strong>${esc(d)}</strong><span>${esc(t)}</span></div>`).join('')}
+document.getElementById('search').addEventListener('input',()=>{renderWords();renderPhrases()});document.getElementById('category').addEventListener('change',()=>{renderWords();renderPhrases()});document.getElementById('speed').addEventListener('input',e=>document.getElementById('speedValue').textContent=Number(e.target.value).toFixed(2)+'×');
+// PWA setup: installation is offered where supported; iOS uses Share > Add to Home Screen.
+let deferredInstallPrompt=null;
+const installButton=document.getElementById('installApp');
+const installNote=document.getElementById('installNote');
+window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredInstallPrompt=event;installNote.textContent='點擊即可安裝到主畫面';});
+installButton.addEventListener('click',async()=>{if(deferredInstallPrompt){deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;}else{installNote.textContent=/iPhone|iPad|iPod/i.test(navigator.userAgent)?'在 Safari 點「分享」→「加入主畫面」':'請從瀏覽器選單選擇「安裝應用程式」或「加到主畫面」';}});
+if('serviceWorker' in navigator && (location.protocol==='https:'||location.hostname==='localhost'||location.hostname==='127.0.0.1')){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{installNote.textContent='離線功能暫不可用，請確認使用 HTTPS 網址。';}));}
+renderWords();renderPhrases();renderInterviews();renderDays();renderReviewStats();if('speechSynthesis'in window){window.speechSynthesis.getVoices();window.speechSynthesis.onvoiceschanged=()=>window.speechSynthesis.getVoices()}
+</script>
+</body>
+</html>
