@@ -3,13 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#172c5c">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="求職英語">
-<link rel="manifest" href="manifest.webmanifest">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="icon" href="icon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#172c5c"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="求職英語"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="description" content="面向香港求職的英語發音與職場溝通練習：剪輯、媒體、數字內容、JD、面試句型。">
 <title>香港求職英語發音練習室</title>
 <style>
@@ -39,21 +33,10 @@ main{padding:22px 16px 48px}.toolbar{display:grid;grid-template-columns:1.4fr 1f
 .review-module{background:#fafdff;border:1px solid #d9e4f7;border-radius:18px;padding:16px;margin:22px 0 28px}.review-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.review-stat{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px}.review-stat span{display:block;color:var(--muted);font-size:.82rem}.review-stat strong{display:block;font-size:1.65rem;line-height:1.3;margin:3px 0}.review-stat small{display:block;color:var(--muted);font-size:.78rem}.review-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.review-area{margin-top:16px;border-top:1px solid #dbe4f2;padding-top:15px}.review-session-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}.review-card{background:white;border:1px solid #d5e0f2;border-radius:16px;padding:22px;text-align:center;min-height:190px;display:flex;flex-direction:column;justify-content:center;gap:10px}.review-kicker{font-size:.8rem;color:var(--muted);font-weight:750}.review-prompt{font-size:clamp(1.2rem,3vw,1.8rem);font-weight:800;line-height:1.45;overflow-wrap:anywhere}.review-hint{color:var(--muted);font-size:.9rem}.review-answer{font-size:clamp(1.15rem,2.5vw,1.55rem);font-weight:800;line-height:1.5;overflow-wrap:anywhere}.review-answer-ipa{color:var(--accent);font-size:.95rem}.review-answer-zh{color:#475467}.review-example{background:#f4f7fb;border-radius:10px;padding:10px;color:#42506a;text-align:left;margin-top:4px}.review-controls{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:12px}.rating-btn{min-width:112px}.rating-again{background:#fde8e7;color:#8d2b24}.rating-hard{background:#fff0d1;color:#79510c}.rating-good{background:#e3f6ea;color:#17663b}.rating-easy{background:#e7efff;color:#1f4da2}.review-complete{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;text-align:center}.review-complete h3{margin:0 0 8px}.review-complete p{color:var(--muted);margin:0 0 12px}
 @media(max-width:700px){.toolbar{grid-template-columns:1fr;position:relative;top:auto}.grid,.daylist,.review-stats{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.hero{padding:0}.card{padding:13px}.review-module{padding:12px}.review-card{padding:18px 12px}.rating-btn{flex:1;min-width:40%}}
 @media print{header{background:#fff;color:#111;padding:10px 0}.hero p,.hero-pills,.toolbar,.controls,.dictionary,.check,footer{display:none!important}main{padding:0}.grid{grid-template-columns:1fr 1fr}.card{break-inside:avoid;box-shadow:none}.section-head{margin-top:14px}}
-/* Mobile app layout */
-html{scroll-padding-top:16px;scroll-padding-bottom:calc(88px + env(safe-area-inset-bottom))}
-header{padding-top:max(26px,env(safe-area-inset-top));padding-bottom:22px}
-.app-actions{display:flex;gap:10px;align-items:center;margin-top:18px;flex-wrap:wrap}.install-app{background:#fff;color:#17366e;min-height:44px;padding:10px 16px}.install-note{font-size:.82rem;color:#e3ecff}
-.mobile-nav{display:none}
-section[id],#wordGrid,#phraseGrid,#interviewList,#dayList{scroll-margin-top:18px}
-button,input,select{touch-action:manipulation}
-@media(max-width:700px){
- body{font-size:16px;padding-bottom:calc(72px + env(safe-area-inset-bottom))}
- header{padding-left:18px;padding-right:18px}.hero h1{font-size:1.9rem}.hero p{font-size:.98rem}.hero-pills{gap:6px}.pill{font-size:.74rem;padding:5px 9px}
- main{padding:14px 12px 28px}.toolbar{position:static;padding:12px;gap:9px;border-radius:14px}.toolbar>div{min-width:0}.toolbar input[type=search],.toolbar select{min-height:48px;font-size:16px}.toolbar input[type=range]{min-height:32px}
- .tip{padding:12px;margin:12px 0 16px}.review-module,.pron-module{margin:16px 0;padding:13px;border-radius:15px}.section-head{margin:23px 0 10px;gap:4px}.section-head h2{font-size:1.2rem}.section-head p{font-size:.86rem}.grid,.daylist,.review-stats{grid-template-columns:1fr}.grid{gap:10px}.card{padding:14px;border-radius:14px}.word{font-size:1.22rem}.controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.controls button{min-height:44px;padding:10px 8px;font-size:.88rem}.check{font-size:.83rem;min-height:38px}.pron-buttons{display:grid;grid-template-columns:1fr 1fr;gap:8px}.pron-buttons button{min-height:46px}.review-actions{display:grid;grid-template-columns:1fr;gap:8px}.review-actions button{min-height:46px}.review-stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.review-stat{padding:9px 7px}.review-stat span{font-size:.72rem}.review-stat strong{font-size:1.35rem}.review-stat small{font-size:.67rem;line-height:1.3}.review-card{min-height:170px;padding:18px 12px}.review-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.review-controls button{min-height:44px}.rating-btn{min-width:0}.interview{padding:14px}.mobile-nav{position:fixed;z-index:20;inset:auto 0 0;display:grid;grid-template-columns:repeat(4,1fr);gap:2px;padding:7px 8px calc(7px + env(safe-area-inset-bottom));background:rgba(255,255,255,.97);border-top:1px solid #dfe5ee;box-shadow:0 -5px 18px rgba(20,30,50,.08);backdrop-filter:blur(12px)}.mobile-nav a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-height:48px;border-radius:10px;color:#3c4a60;text-decoration:none;font-size:.7rem;font-weight:700}.mobile-nav a span:first-child{font-size:1.15rem;line-height:1.1}.mobile-nav a:active{background:#edf2ff;color:#185adb}footer{padding-bottom:20px}
-}
-@media(min-width:701px){.mobile-nav{display:none}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+/* mobile PWA */
+html{scroll-padding-bottom:90px}button,input,select{touch-action:manipulation}
+.app-actions{display:flex;gap:10px;align-items:center;margin-top:16px;flex-wrap:wrap}.install-app{background:#fff;color:#17366e;min-height:44px;padding:10px 16px}.install-note{font-size:.82rem;color:#e3ecff}.mobile-nav{display:none}
+@media(max-width:700px){body{font-size:16px;padding-bottom:76px}header{padding:26px 18px 22px}.hero h1{font-size:1.9rem}main{padding:14px 12px 28px}.toolbar{position:static;grid-template-columns:1fr;padding:12px}.toolbar input[type=search],.toolbar select{min-height:48px;font-size:16px}.grid,.daylist{grid-template-columns:1fr}.review-stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.review-stat{padding:9px 6px}.review-stat span{font-size:.72rem}.review-stat small{font-size:.67rem}.controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.controls button,.review-actions button,.pron-buttons button{min-height:44px}.review-actions{display:grid;grid-template-columns:1fr}.review-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.rating-btn{min-width:0}.pron-grid{grid-template-columns:1fr}.mobile-nav{position:fixed;z-index:20;inset:auto 0 0;display:grid;grid-template-columns:repeat(4,1fr);padding:7px 8px calc(7px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid #dfe5ee}.mobile-nav a{display:flex;flex-direction:column;align-items:center;gap:2px;min-height:48px;color:#3c4a60;text-decoration:none;font-size:.7rem;font-weight:700}.mobile-nav a span:first-child{font-size:1.15rem}}
 </style>
 </head>
 <body>
@@ -132,9 +115,9 @@ button,input,select{touch-action:manipulation}
 
   <div class="section-head" id="vocabulary"><div><h2>一、核心詞彙</h2><p>先熟悉招聘JD、剪輯製作與內容數據中常見的詞。</p></div><div class="count" id="wordCount"></div></div>
   <div class="grid" id="wordGrid"></div>
-  <div class="section-head" id="phrases"><div><h2>二、香港職場常用句</h2><p>先背整句，工作時比臨時拼單詞更好用。</p></div><div class="count" id="phraseCount"></div></div>
+  <div class="section-head"><div><h2>二、香港職場常用句</h2><p>先背整句，工作時比臨時拼單詞更好用。</p></div><div class="count" id="phraseCount"></div></div>
   <div class="grid" id="phraseGrid"></div>
-  <div class="section-head" id="interviews"><div><h2>三、面試自我介紹與作品說明</h2><p>請把模板改成符合你真實經歷的版本，不要背不屬於自己的經驗。</p></div></div>
+  <div class="section-head"><div><h2>三、面試自我介紹與作品說明</h2><p>請把模板改成符合你真實經歷的版本，不要背不屬於自己的經驗。</p></div></div>
   <div id="interviewList"></div>
   <div class="section-head" id="plan"><div><h2>四、14天加急學習安排</h2><p>每天20–30分鐘；以能聽懂、說出來為準，不要求一次記住全部。</p></div></div>
   <div class="daylist" id="dayList"></div>
@@ -241,9 +224,21 @@ const days = [
 const storageKey='hkMediaEnglishLearnedV1';let learned=new Set();try{learned=new Set(JSON.parse(localStorage.getItem(storageKey)||'[]'))}catch(e){}
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function currentSpeed(){return Number(document.getElementById('speed').value)}
-function status(msg){document.getElementById('status').textContent=msg}
-function speak(text,kind='sentence'){if(!('speechSynthesis' in window)){status('此瀏覽器不支援內建朗讀，請使用詞典連結聽發音。');return}window.speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);const pref=document.getElementById('voice').value;const voices=window.speechSynthesis.getVoices();let choices=voices.filter(v=>/^en(-|_)/i.test(v.lang));let chosen=null;if(pref!=='any')chosen=choices.find(v=>v.lang.toLowerCase().replace('_','-').startsWith(pref.toLowerCase()))||null;if(!chosen)chosen=choices.find(v=>v.lang.toLowerCase().startsWith('en-gb'))||choices[0]||null;if(chosen){u.voice=chosen;u.lang=chosen.lang}else{u.lang=pref==='en-US'?'en-US':'en-GB'}u.rate=currentSpeed();u.pitch=1;u.onstart=()=>status('正在朗讀：'+text);u.onend=()=>status('朗讀完成。可再聽一次，或跟讀錄音。');u.onerror=()=>status('沒有成功播放。請檢查裝置音量或切換另一個聲音。');window.speechSynthesis.speak(u)}
-function cambridge(en){return 'https://dictionary.cambridge.org/dictionary/english/'+encodeURIComponent(en.toLowerCase().replaceAll(' ','-'))}
+let cachedVoices=[];
+function refreshVoices(){try{cachedVoices=window.speechSynthesis.getVoices()||[]}catch(e){cachedVoices=[]}}
+function speak(text,kind='sentence'){
+ if(!('speechSynthesis' in window)){status('此瀏覽器不支援內建朗讀，請使用詞典連結聽發音。');return}
+ const synth=window.speechSynthesis;
+ if(!cachedVoices.length)refreshVoices();
+ if(synth.speaking||synth.pending)synth.cancel();
+ const u=new SpeechSynthesisUtterance(text),pref=document.getElementById('voice').value;
+ const choices=cachedVoices.filter(v=>/^en(-|_)/i.test(v.lang));let chosen=null;
+ if(pref!=='any')chosen=choices.find(v=>v.lang.toLowerCase().replace('_','-').startsWith(pref.toLowerCase()))||null;
+ if(!chosen)chosen=choices.find(v=>v.lang.toLowerCase().startsWith('en-gb'))||choices[0]||null;
+ if(chosen){u.voice=chosen;u.lang=chosen.lang}else{u.lang=pref==='en-US'?'en-US':'en-GB'}
+ u.rate=currentSpeed();u.pitch=1;u.onstart=()=>status('正在朗讀：'+text);u.onend=()=>status('朗讀完成。可再聽一次，或跟讀錄音。');u.onerror=()=>status('沒有成功播放。請檢查裝置音量或切換另一個聲音。');
+ synth.resume();synth.speak(u);
+}function cambridge(en){return 'https://dictionary.cambridge.org/dictionary/english/'+encodeURIComponent(en.toLowerCase().replaceAll(' ','-'))}
 function renderWords(){const q=document.getElementById('search').value.toLowerCase().trim(),cat=document.getElementById('category').value;const list=words.filter(w=>(cat==='all'||w.cat===cat)&&(!q||[w.en,w.zh,w.ex,w.ipa,w.cat].join(' ').toLowerCase().includes(q)));document.getElementById('wordCount').textContent=`顯示 ${list.length} / ${words.length} 個詞`;document.getElementById('wordGrid').innerHTML=list.length?list.map((w,i)=>{let done=learned.has('w:'+w.en);return `<article class="card ${done?'learned':''}"><div class="wordtop"><div><span class="category-tag">${esc(w.cat)}</span><div class="word">${esc(w.en)}</div><div class="ipa">${esc(w.ipa)}</div></div><label class="check"><input type="checkbox" ${done?'checked':''} onchange="toggleLearned('w:${esc(w.en)}',this.checked)"> 已掌握</label></div><div class="meaning">${esc(w.zh)}</div><div class="example">${esc(w.ex)}</div><div class="controls"><button class="btn-primary btn-mini" onclick="speak(this.dataset.text)" data-text="${esc(w.en)}">🔊 聽單詞</button><button class="btn-light btn-mini" onclick="speak(this.dataset.text)" data-text="${esc(w.ex)}">🔊 聽例句</button><button class="btn-quiet btn-mini" onclick="window.open(this.dataset.url, '_blank', 'noopener')" data-url="${esc(cambridge(w.en))}">詞典發音 ↗</button></div></article>`}).join(''):'<div class="empty">找不到符合的詞，試試其他關鍵字。</div>';updateProgress()}
 function renderPhrases(){const q=document.getElementById('search').value.toLowerCase().trim();const list=phrases.filter(p=>(document.getElementById('category').value==='all'||document.getElementById('category').value===p.cat)&&(!q||[p.en,p.zh,p.cat].join(' ').toLowerCase().includes(q)));document.getElementById('phraseCount').textContent=`顯示 ${list.length} / ${phrases.length} 句`;document.getElementById('phraseGrid').innerHTML=list.length?list.map(p=>{let done=learned.has('p:'+p.en);return `<article class="card ${done?'learned':''}"><div class="wordtop"><span class="category-tag">${esc(p.cat)}</span><label class="check"><input type="checkbox" ${done?'checked':''} onchange="toggleLearned('p:${esc(p.en)}',this.checked)"> 已掌握</label></div><div class="phrase-en">${esc(p.en)}</div><div class="phrase-zh">${esc(p.zh)}</div><div class="controls"><button class="btn-primary btn-mini" onclick="speak(this.dataset.text)" data-text="${esc(p.en)}">🔊 聽整句</button><button class="btn-quiet btn-mini" onclick="copyText(this.dataset.text)" data-text="${esc(p.en)}">複製英文</button></div></article>`}).join(''):'<div class="empty">找不到符合的句子，試試其他關鍵字。</div>';updateProgress()}
 function toggleLearned(id,v){if(v)learned.add(id);else learned.delete(id);try{localStorage.setItem(storageKey,JSON.stringify([...learned]))}catch(e){}renderWords();renderPhrases()}
@@ -436,14 +431,11 @@ renderPronOptions();
 function renderInterviews(){document.getElementById('interviewList').innerHTML=interviews.map((x,i)=>`<article class="interview"><h3>${i+1}. ${esc(x.q)}</h3><p>${esc(x.a)}</p><p class="zh">${esc(x.zh)}</p><div class="controls"><button class="btn-primary btn-mini" onclick="speak(this.dataset.text)" data-text="${esc(x.a)}">🔊 聽回答</button><button class="btn-quiet btn-mini" onclick="copyText(this.dataset.text)" data-text="${esc(x.a)}">複製英文</button></div></article>`).join('')}
 function renderDays(){document.getElementById('dayList').innerHTML=days.map(([d,t])=>`<div class="day"><strong>${esc(d)}</strong><span>${esc(t)}</span></div>`).join('')}
 document.getElementById('search').addEventListener('input',()=>{renderWords();renderPhrases()});document.getElementById('category').addEventListener('change',()=>{renderWords();renderPhrases()});document.getElementById('speed').addEventListener('input',e=>document.getElementById('speedValue').textContent=Number(e.target.value).toFixed(2)+'×');
-// PWA setup: installation is offered where supported; iOS uses Share > Add to Home Screen.
-let deferredInstallPrompt=null;
-const installButton=document.getElementById('installApp');
-const installNote=document.getElementById('installNote');
-window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredInstallPrompt=event;installNote.textContent='點擊即可安裝到主畫面';});
-installButton.addEventListener('click',async()=>{if(deferredInstallPrompt){deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;}else{installNote.textContent=/iPhone|iPad|iPod/i.test(navigator.userAgent)?'在 Safari 點「分享」→「加入主畫面」':'請從瀏覽器選單選擇「安裝應用程式」或「加到主畫面」';}});
-if('serviceWorker' in navigator && (location.protocol==='https:'||location.hostname==='localhost'||location.hostname==='127.0.0.1')){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{installNote.textContent='離線功能暫不可用，請確認使用 HTTPS 網址。';}));}
-renderWords();renderPhrases();renderInterviews();renderDays();renderReviewStats();if('speechSynthesis'in window){window.speechSynthesis.getVoices();window.speechSynthesis.onvoiceschanged=()=>window.speechSynthesis.getVoices()}
+let deferredInstallPrompt=null;const installButton=document.getElementById('installApp'),installNote=document.getElementById('installNote');
+window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredInstallPrompt=event;installNote.textContent='點擊即可安裝到主畫面'});
+installButton.addEventListener('click',async()=>{if(deferredInstallPrompt){deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null}else installNote.textContent=/iPhone|iPad|iPod/i.test(navigator.userAgent)?'在 Safari 點「分享」→「加入主畫面」':'請從瀏覽器選單選擇「安裝應用程式」或「加到主畫面」'});
+if('serviceWorker' in navigator&&(location.protocol==='https:'||location.hostname==='localhost'||location.hostname==='127.0.0.1'))window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+renderWords();renderPhrases();renderInterviews();renderDays();renderReviewStats();if('speechSynthesis'in window){refreshVoices();window.speechSynthesis.onvoiceschanged=refreshVoices}
 </script>
 </body>
 </html>
